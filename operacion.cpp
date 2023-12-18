@@ -29,7 +29,7 @@ double Operacion::getResultado(){
             resultado = this->a + this->b;
             break;
         case resta:
-            resultado = this->a + this->b;
+            resultado = this->a - this->b;
             break;
         case multiplicacion:
             resultado = this->a * this->b;
